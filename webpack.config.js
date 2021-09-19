@@ -11,12 +11,35 @@ module.exports = {
 
 */
 
+const html = require('html-webpack-plugin');
+
+
 const path = require("path");
 
 module.exports = {
-  entry: ".src/index.js",
+  mode: "development",
+
+  entry: {
+    index: "./src/index.js",
+    test: "./src/test.js"
+  },
+  devServer: {
+    static: './dist',
+  },
   output: {
-    filename: "main.js",
+    filename: "[name].bundle.js",
     path: path.resolve(__dirname, "dist"),
-  }
+  },
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+      },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
+      },
+    ],
+  },
 };
