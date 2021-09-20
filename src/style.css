@@ -1,6 +1,9 @@
 /* VARIABLES */
 :root{
   --border-b:black solid 1px;
+  --food:url("./food.jpeg");
+  --drinks: url("./drinks.jpeg");
+  --contacts:url("./ccontacts.jpg");
 }
  
 *{
@@ -54,7 +57,7 @@ body,html{
 .main{
 }
 .main-img-c{
-  background: url("./food.jpeg");
+  background: var(--food);
   background-size: cover;
   background-repeat: no-repeat;
   height:400px;

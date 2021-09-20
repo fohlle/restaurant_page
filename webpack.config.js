@@ -22,7 +22,8 @@ module.exports = {
   entry: {
     dom:"./src/dom.js",
     index: "./src/index.js",
-    test: "./src/test.js"
+    test: "./src/test.js",
+    event:"./src/event.js"
   },
   devServer: {
     static: './dist',
