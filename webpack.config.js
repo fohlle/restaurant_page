@@ -20,6 +20,7 @@ module.exports = {
   mode: "development",
 
   entry: {
+    dom:"./src/dom.js",
     index: "./src/index.js",
     test: "./src/test.js"
   },

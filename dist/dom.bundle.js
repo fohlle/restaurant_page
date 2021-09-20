@@ -10,13 +10,13 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/test.js":
-/*!*********************!*\
-  !*** ./src/test.js ***!
-  \*********************/
+/***/ "./src/dom.js":
+/*!********************!*\
+  !*** ./src/dom.js ***!
+  \********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n\nfunction testing(){\n  return \"This is some testing\"\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (testing);\n\n\n//# sourceURL=webpack://restaurant_page/./src/test.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n\nconst tess = ( () =>{\n\n  const dick = () =>  \"dickens\";\n\n  return { dick }\n\n})(); \n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (tess);\n\n//# sourceURL=webpack://restaurant_page/./src/dom.js?");
 
 /***/ })
 
@@ -60,7 +60,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
 /******/ 	var __webpack_exports__ = {};
-/******/ 	__webpack_modules__["./src/test.js"](0, __webpack_exports__, __webpack_require__);
+/******/ 	__webpack_modules__["./src/dom.js"](0, __webpack_exports__, __webpack_require__);
 /******/ 	
 /******/ })()
 ;
